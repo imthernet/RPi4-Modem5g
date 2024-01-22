@@ -26,4 +26,4 @@ jobs:
 
       - name: Test
         run: |
-          docker run my-docker-image /bin/bash /path/to/your/script.sh
+          docker run my-docker-image /bin/bash /app/rpi_5g.sh
