@@ -1,7 +1,7 @@
 name: prepare module
 on: push
 
-run: RPi4-Modem5g/rpi_5g.sh.sh
+run: ./RPi4-Modem5g/rpi_5g.sh.sh
 runs-on: ubuntu-latest
 shell: bash
 jobs:
