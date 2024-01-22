@@ -1,0 +1,12 @@
+name: bash.script
+on:
+  push:
+    branches: [main]
+
+  jobs:
+
+    test:
+
+      name: Test
+      runs-on: ubuntu-latest
+
